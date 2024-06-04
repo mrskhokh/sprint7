@@ -4,18 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44d38eef-fa3f-4b62-af94-ade457b02037" name="Changes" comment="initial branch" />
+    <list default="true" id="44d38eef-fa3f-4b62-af94-ade457b02037" name="Changes" comment="class changes and allure results">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OrdersListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CourierLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CourierLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/23ab8922-9a34-4b97-9051-4e8fc25d2905-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2be3d2f7-11f2-47cf-80d1-7995d07691f9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/35426c28-4cc8-4954-a1b9-c424dbd56a22-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/79d8c20a-86e2-4976-94c2-ef34b85854be-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7cbf5775-e1ae-45db-8212-7455562f8632-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/99aa8885-ae6a-48b0-b46b-0186d69f2569-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b0139f4f-7b7c-4787-a6f1-d91cbe0ff99c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b8efe81d-f26c-4c9f-8c6c-86d38bce51af-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d3bc227a-685b-4ae8-adbf-6b35c3d8c354-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d67bca9d-402c-4e98-b5ba-361fa2921e3e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/daa315cc-1b97-4de3-b3bc-58689492cdf3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fd9ff6a2-09c5-40f0-9f12-e55e5e9bab8d-result.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2hMHEJjVGLFy910zceloErH5x9Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,14 +63,90 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CourierLoginTest.courierNoLoginDataTest.executor": "Run",
+    "JUnit.CourierLoginTest.executor": "Run",
+    "JUnit.CreateCourierTest.executor": "Run",
+    "JUnit.OrderCreateTest.executor": "Run",
+    "JUnit.OrdersListTest.GetOrdersListTest.executor": "Run",
+    "JUnit.java in Sprint7API.executor": "Run",
+    "Maven.Sprint7 [clean,test].executor": "Run",
+    "Maven.Sprint7 [clean].executor": "Run",
+    "Maven.Sprint7 [install].executor": "Run",
+    "Maven.Sprint7 [io.qameta.allure:allure-maven:2.10.0:install].executor": "Run",
+    "Maven.Sprint7 [io.qameta.allure:allure-maven:2.10.0:report].executor": "Run",
+    "Maven.Sprint7 [io.qameta.allure:allure-maven:2.10.0:serve].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "sprint7branch",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/levin/IdeaProjects/Sprint7API/src/test/java/CourierLoginTest.java",
+    "two.files.diff.last.used.file": "C:/Users/levin/IdeaProjects/Sprint7API/src/test/java/CourierLoginTest.java"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.OrdersListTest.GetOrdersListTest">
+    <configuration name="CourierLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint7API" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CourierLoginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourierLoginTest.courierNoLoginDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint7API" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CourierLoginTest" />
+      <option name="METHOD_NAME" value="courierNoLoginDataTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderCreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint7API" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderCreateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdersListTest.GetOrdersListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint7API" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrdersListTest" />
+      <option name="METHOD_NAME" value="GetOrdersListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in Sprint7API" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint7API" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrdersListTest.GetOrdersListTest" />
+        <item itemvalue="JUnit.java in Sprint7API" />
+        <item itemvalue="JUnit.CourierLoginTest" />
+        <item itemvalue="JUnit.CourierLoginTest.courierNoLoginDataTest" />
+        <item itemvalue="JUnit.OrderCreateTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,11 +164,29 @@
       <option name="project" value="LOCAL" />
       <updated>1717397240271</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="review">
+      <option name="closed" value="true" />
+      <created>1717397501755</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717397501755</updated>
+    </task>
+    <task id="LOCAL-00003" summary="class changes and allure results">
+      <option name="closed" value="true" />
+      <created>1717403109592</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717403109592</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial branch" />
+    <MESSAGE value="review" />
+    <MESSAGE value="class changes and allure results" />
+    <option name="LAST_COMMIT_MESSAGE" value="class changes and allure results" />
   </component>
 </project>
