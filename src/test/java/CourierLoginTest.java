@@ -47,24 +47,7 @@ public class CourierLoginTest {
 
     }
 
-    @DisplayName("Отсутсвие логина при авторизации тест")
-    @Test
-    public void courierNoLoginDataTest() {
-        String json = "{\n" +
-                "    \"login\": \"\",\n" +
-                "    \"password\": \"" + PASSWORD + "\"\n" +
-                "}";
 
-        Response response =
-                given()
-                        .header("Content-type", "application/json")
-                        .body(json)
-                        .when()
-                        .post("https://qa-scooter.praktikum-services.ru/api/v1/courier/login");
-
-        response.then().assertThat().statusCode(400).and()
-                .body("message", equalTo("Недостаточно данных для входа"));
-    }
 
     @DisplayName("Пустой пароль при авторизации тест")
     @Test
@@ -84,6 +67,27 @@ public class CourierLoginTest {
         response.then().assertThat().statusCode(400).and()
                 .body("message", equalTo("Недостаточно данных для входа"));
     }
+
+   @DisplayName("Отсутсвие логина при авторизации тест")
+    @Test
+     public void courierNoLoginDataTest() {
+         String json = "{\n" +
+                 "    \"login\": \"\",\n" +
+                 "    \"password\": \"" + PASSWORD + "\"\n" +
+                 "}";
+
+         Response response =
+                 given()
+                         .header("Content-type", "application/json")
+                         .body(json)
+                         .when()
+                         .post("https://qa-scooter.praktikum-services.ru/api/v1/courier/login");
+
+         response.then().assertThat().statusCode(400).and()
+                 .body("message", equalTo("Недостаточно данных для входа"));
+     }
+
+
     @DisplayName("Авторизация позитивный кейс тест")
     @Test
     public void courierSuccessLoginTest() {
